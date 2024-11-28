@@ -67,6 +67,7 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: 'bold',
     marginBottom: 10,
+    color: 'aqua'
   },
   description: {
     fontSize: 16,
@@ -75,7 +76,7 @@ const styles = StyleSheet.create({
   },
   link: {
     fontSize: 16,
-    color: 'blue',
+    color: 'pink',
     textDecorationLine: 'underline',
   },
 });
