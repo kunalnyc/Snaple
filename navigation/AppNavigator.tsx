@@ -6,7 +6,7 @@ import CafesScreen from '../screens/CafeScreen'; // Fixed incorrect import
 
 // Define the navigation stack parameters
 type RootStackParamList = {
-  Home: undefined; // No parameters for Home screen
+  Homes: undefined; // No parameters for Home screen
   Cafes: undefined; // No parameters for Cafes screen
 };
 
@@ -16,8 +16,8 @@ const Stack = createStackNavigator<RootStackParamList>();
 const AppNavigator: React.FC = () => {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="Home" component={HomeScreen} />
+      <Stack.Navigator initialRouteName="Homes">
+        <Stack.Screen name="Homes" component={HomeScreen} />
         <Stack.Screen name="Cafes" component={CafesScreen} />
       </Stack.Navigator>
     </NavigationContainer>
